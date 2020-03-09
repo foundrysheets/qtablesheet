@@ -1,0 +1,5 @@
+[workspace] 
+members = ["qtablesheet", "qtablepdf"]
+
+[profile.release]
+#panic = "abort"

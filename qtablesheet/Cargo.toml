@@ -1,0 +1,8 @@
+[package]
+name = "qtablesheet"
+version = "0.1.0"
+authors = ["foundrysheets <48253418+foundrysheets@users.noreply.github.com>"]
+
+[dependencies]
+qtablepdf = {path = "../qtablepdf"}
+enumflags2 = "0.6.2"
