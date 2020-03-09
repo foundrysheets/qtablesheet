@@ -9,7 +9,7 @@ use std::path::Path;
 use std::{env, time::Instant};
 
 fn main() {
-    const RELEASE: bool = false;
+    const RELEASE: bool = true;
     let prognam: String;
     let mut infiles: Vec<String>;
 

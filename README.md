@@ -188,12 +188,12 @@ Those are always ordered by group number.
 
 ![samplepdf](assets/samplepdf.png)
 
-## Installation
+## Build
 ```
 git clone https://github.com/foundrysheets/qtablesheet
 cd qtablesheet
-cargo install
-```
+cargo build --release --all
+``` 
 
 ## Library
 The supporting library 'qtablepdf' is designed to back the 'qtablesheet' executable.\
