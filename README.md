@@ -23,14 +23,14 @@ They can be created with the command 'qtablesheet samples'.\
 This may be useful, because the format of the CSV limits and configuration files must be kept.\
 A spreadsheet program would be the best choice to edit these files. 
 
----
+### Data file
 
 The [CSV data file](data/sample.dat.csv) must contain a header row. The column names don't have to be unique, because parameters are identified by column number (starting from 1) and name.
 Empty columns/rows will be skipped.
 
 ![sampledat](assets/sampledat.png)
 
----
+### Limits file
 
 Parameter specific spec and/or control limits and/or filters to apply to the data before computation can be set in an optional [CSV limits file](data/sample.lim.csv).\
 Only with a CSV limits file provided, yields and Cpk will be computed and the parameters in the PDF output can be color marked.\
@@ -39,7 +39,7 @@ Limits/Filters can be switched on/off with a checkmark in the USE column.
 
 ![samplelim](assets/samplelim.png)
 
----
+### Config file
 
 The [CSV config file](data/sample.cfg.csv) contains settings for the creation of the [PDF output file](data/sample.dat.pdf).\
 Also the column types, names, and width to build the table from, are specified here.
@@ -173,7 +173,7 @@ x	column	cpkplot	cpk	5.5
 
 ```
 
----
+### PDF output file
 
 The [PDF sample file](data/sample.dat.pdf) created with the sample CSV data, limits, and config file.\
 Because the OPT 'order' was set to 'bybadgood' the 'bad' parameters are moved to the top of the table.\
@@ -194,6 +194,7 @@ git clone https://github.com/foundrysheets/qtablesheet
 cd qtablesheet
 cargo build --release --all
 ``` 
+If build is successfully completed, the executable should be in folder target|release.
 
 ## Library
 The supporting library 'qtablepdf' is designed to back the 'qtablesheet' executable.\
