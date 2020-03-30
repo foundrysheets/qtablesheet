@@ -190,7 +190,7 @@ Those are always ordered by group number.
 
 ## Build
 ```
-git clone https://github.com/foundrysheets/qtablesheet
+git clone https://github.com/qtablesheets/qtablesheet
 cd qtablesheet
 cargo build --release --all
 ``` 

@@ -1,8 +1,8 @@
-Third party licenses used in foundrysheets/qtablesheet
+Third party licenses used in qtablesheets/qtablesheet
 ======================================================
 
 List of the licenses of the projects used in
-foundrysheets/qtablesheet.
+qtablesheets/qtablesheet.
 
 Overview of licenses used:
 -------------------------

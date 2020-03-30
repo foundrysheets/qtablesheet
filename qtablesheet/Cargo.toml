@@ -1,7 +1,7 @@
 [package]
 name = "qtablesheet"
 version = "0.1.0"
-authors = ["foundrysheets <48253418+foundrysheets@users.noreply.github.com>"]
+authors = ["qtablesheets <48253418+qtablesheets@users.noreply.github.com>"]
 
 [dependencies]
 qtablepdf = {path = "../qtablepdf"}
